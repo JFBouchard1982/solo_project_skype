@@ -156,3 +156,24 @@ a{
     color:#262626;
     text-decoration: underline;
 }
+.demo-body{
+    background-color: #262626;
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 auto;
+    width: fit-content;
+}
+.demo-h2 {
+    display: block;
+    margin: 50px 0 0 0;
+    color: whitesmoke;
+    max-width: 600px;
+    text-align: center;
+}
+.demo-link {
+    color:#0E78C8
+}
+.demo-link:hover{
+    text-decoration: underline;
+    color: orange;
+}
