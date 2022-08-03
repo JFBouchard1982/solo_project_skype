@@ -1,0 +1,158 @@
+*{ 
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+/* typography */
+
+.section-one-h1{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    line-height: 48px;
+}
+.section-two-h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+}
+p{
+    margin-top: 0.5rem;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: #262626;
+    margin-bottom: 3rem;
+}
+
+/* header 1 */
+
+#skype-logo1{
+    width: 63px;
+    height: 63px;
+}
+.installSkype-a{
+    color: #0E78C8;
+}
+.header-container1{
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    line-height: 18.75px;
+    margin: 1.3rem 0rem;
+}
+
+/* header 2 */
+
+.link-container{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 35px;
+  margin-left: 10%;
+
+}
+.microsoft-logo1{
+    margin-top: -0.3rem; 
+}
+.splitter{
+    font-size: 40px;
+    font-weight: normal;
+}
+.link1{
+    text-align: start;
+    line-height: 1rem;
+    color: #262626;
+}
+.link2-container1{
+    white-space: nowrap;
+    margin-left: 31%;
+}
+.link2-container2{
+    white-space: nowrap;
+}
+.link2{
+    line-height: 1rem;
+    color: #262626;
+}
+.skype-link{
+    font-size: 1.5rem;
+}
+.header-2-link-effect:hover{
+    text-decoration: underline #262626;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+/* section 1 (Support Ukraine) */
+
+.section-one{
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 0px 20px 20px 20px;
+    padding: 30px 30px;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-one-text{
+    max-width: 50%;
+    margin-right: 3rem;
+}
+.skype-credit-link{ 
+    color: #0E78C8;
+    text-decoration: underline;
+}
+.skype-credit-link:hover{ 
+    color: #262626;
+    text-decoration: underline;
+}
+.donate-btn{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: #0E78C8;
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.free-calls{
+    margin-left: 50px;
+    color: #0E78C8;
+    text-decoration: underline;
+}
+.section-one-bottom{
+    margin-top: 30px;
+}
+.sectionOne-img{
+    padding-top: 100px;
+    min-width: 900px;
+    /* max-width: 50000px; */
+}
+
+/* section 2 (Discover more from Skype) */
+
+.section-two{
+    text-align: start;
+    margin-left: 9%;
+    width: 95%; 
+    display: table;
+    border-spacing: 2rem;
+}
+.discover-elements{
+    display: table-row;
+}
+.discover-boxes{
+    min-width: 320px; 
+    display: table-cell;
+    border-radius: 0px 20px 0px 0px;
+}
+.discover-section-links{
+    color:#0E78C8; 
+}
+.discover-section-links:hover{
+    color:#262626;
+    text-decoration: underline;
+}
