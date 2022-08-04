@@ -5,22 +5,21 @@
 
 /* typography */
 
-.section-one-h1{
-    margin-top: 20px;
-    margin-bottom: 35px;
+.section-one-h1, .section-two-h1{
     font-size: 40px;
     line-height: 48px;
+}
+
+.section-one-h1{
+    margin: 20px 0px 35px 0px;
+
 }
 .section-two-h1{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 0px 10px 0px;
     text-align: center;
-    font-size: 40px;
-    line-height: 48px;
 }
 p{
-    margin-top: 0.5rem;
-    margin-bottom: 30px;
+    margin: 0.5rem 0rem 1.875rem 0rem;
 }
 a{
     text-decoration: none;
@@ -50,8 +49,7 @@ a{
 .link-container{
   display: flex;
   gap: 2rem;
-  margin-bottom: 35px;
-  margin-left: 10%;
+  margin: 0px 0px 35px 7.5%;
 
 }
 .microsoft-logo1{
@@ -62,20 +60,22 @@ a{
     font-weight: normal;
 }
 .link1{
-    text-align: start;
     line-height: 1rem;
     color: #262626;
 }
-.link2-container1{
-    white-space: nowrap;
-    margin-left: 31%;
-}
-.link2-container2{
-    white-space: nowrap;
+.link2-container{
+    margin-left: 36%;
 }
 .link2{
+    position:relative;
     line-height: 1rem;
     color: #262626;
+}
+.down-arrow{
+    margin: 0 auto;
+    position: absolute;
+    left: 1703px;
+    bottom: 780px;
 }
 .skype-link{
     font-size: 1.5rem;
@@ -92,12 +92,10 @@ a{
     background-color: #F2F2F2;
     border-radius: 0px 20px 20px 20px;
     padding: 30px 30px;
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 80%;
+    margin: 0 auto;
 }
 .section-one-text{
-    max-width: 50%;
     margin-right: 3rem;
 }
 .skype-credit-link{ 
@@ -109,8 +107,7 @@ a{
     text-decoration: underline;
 }
 .donate-btn{
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 30px;
     display: inline-block;
     background-color: #0E78C8;
     padding: 20px 40px;
@@ -129,37 +126,46 @@ a{
 .sectionOne-img{
     padding-top: 100px;
     min-width: 900px;
-    /* max-width: 50000px; */
 }
 
 /* section 2 (Discover more from Skype) */
 
 .section-two{
     text-align: start;
-    margin-left: 9%;
-    width: 95%; 
-    display: table;
+    margin-left: 7%;
     border-spacing: 2rem;
 }
-.discover-elements{
-    display: table-row;
-}
 .discover-boxes{
-    min-width: 320px; 
+    position: relative;
     display: table-cell;
     border-radius: 0px 20px 0px 0px;
+    border-left: 1px solid #E5E4E8;
+    border-top: 1px solid #E5E4E8;
+    border-right: 1px solid #E5E4E8;
 }
+.discover-img{
+    min-width: 400px;
+}
+.discover-boxes-text{   
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
 .discover-section-links{
-    color:#0E78C8; 
+    position: absolute;
+    top: 500px;
+    right: 250px;
+    color:#0E78C8;
 }
 .discover-section-links:hover{
     color:#262626;
     text-decoration: underline;
 }
+
+/* Page Demo */
+
 .demo-body{
     background-color: #262626;
-    /* display: flex;
-    justify-content: center; */
     margin: 0 auto;
     width: fit-content;
 }
