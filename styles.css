@@ -11,20 +11,20 @@
 }
 
 .section-one-h1{
-    margin: 20px 0px 35px 0px;
+    margin: 1.25em 0em 2.1875em 0em;
 
 }
 .section-two-h1{
-    margin: 40px 0px 10px 0px;
+    margin: 1.25em 0em 0.625em 0em;
     text-align: center;
 }
 p{
-    margin: 0.5rem 0rem 1.875rem 0rem;
+    margin: 0.5em 0em 1.875em 0em;
 }
 a{
     text-decoration: none;
     color: #262626;
-    margin-bottom: 3rem;
+    margin-bottom: 3em;
 }
 
 /* header 1 */
@@ -39,43 +39,48 @@ a{
 .header-container1{
     display: flex;
     justify-content: center;
-    gap: 0.75rem;
+    gap: 0.75em;
     line-height: 18.75px;
-    margin: 1.3rem 0rem;
+    margin: 1.3em 0rem;
 }
 
 /* header 2 */
 
-.link-container{
-  display: flex;
-  gap: 2rem;
-  margin: 0px 0px 35px 7.5%;
+.main-link-container {
+    margin: 1.5em auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.link1-container{
+    display: flex;
+    gap: 1.5em
 
 }
+.link2-container{
+    display: flex;
+    white-space: nowrap;
+}
 .microsoft-logo1{
-    margin-top: -0.3rem; 
+    margin-top: -0.3em; 
 }
 .splitter{
+    padding: 0 0.2em;
     font-size: 40px;
-    font-weight: normal;
+    font-weight: 400;
 }
 .link1{
     line-height: 1rem;
     color: #262626;
 }
-.link2-container{
-    margin-left: 36%;
-}
 .link2{
-    position:relative;
     line-height: 1rem;
     color: #262626;
+    margin-left: 1.5em;
 }
-.down-arrow{
-    margin: 0 auto;
-    position: absolute;
-    left: 1703px;
-    bottom: 780px;
+.down-arrow {
+    padding-bottom: 0.2em;
+    padding-left: 0.2em;
 }
 .skype-link{
     font-size: 1.5rem;
@@ -91,12 +96,14 @@ a{
     display: flex;
     background-color: #F2F2F2;
     border-radius: 0px 20px 20px 20px;
-    padding: 30px 30px;
+    padding: 1.875em 2.875em;
     max-width: 80%;
     margin: 0 auto;
+    justify-content: space-between;
 }
 .section-one-text{
-    margin-right: 3rem;
+    max-width: 30em;
+    margin-right: 3em;
 }
 .skype-credit-link{ 
     color: #0E78C8;
@@ -107,25 +114,25 @@ a{
     text-decoration: underline;
 }
 .donate-btn{
-    margin: 0px 0px 30px 30px;
+    margin: 0em 0em 1.875em 1.875em;
     display: inline-block;
     background-color: #0E78C8;
-    padding: 20px 40px;
+    padding: 1.25em 2.5em;
     border-radius: 50px;
     color: #ffffff;
     font-weight: 700;
 }
 .free-calls{
-    margin-left: 50px;
+    margin-left: 3.125em;
     color: #0E78C8;
     text-decoration: underline;
 }
 .section-one-bottom{
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 .sectionOne-img{
-    padding-top: 100px;
-    min-width: 900px;
+    padding: 12em 0em;
+    max-width: 56.25em;
 }
 
 /* section 2 (Discover more from Skype) */
@@ -144,7 +151,7 @@ a{
     border-right: 1px solid #E5E4E8;
 }
 .discover-img{
-    min-width: 400px;
+    max-width: 25em;
 }
 .discover-boxes-text{   
     padding: 20px 20px;
@@ -153,8 +160,9 @@ a{
 
 .discover-section-links{
     position: absolute;
+    white-space: nowrap;
     top: 500px;
-    right: 250px;
+    right: 190px;
     color:#0E78C8;
 }
 .discover-section-links:hover{
